@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Pompadur; /* Гарнитура шрифта */
+    src: url(../fonts/12807.ttf); /* Путь к файлу со шрифтом */
+   }
+body{
+    background: url(../img/Edible_Works_1.jpg);
+    font-family: Pompadur;
+    color: aliceblue;
+    height: 100%;
+    
+}
+html{
+    height: 100%
+}
+#head{
+    font-size: 1cm;
+}
+#name{
+    margin-top:15px;
+}
+#container{
+    color: black;
+    padding: 1% 1%;
+}
+
+#content{
+    color: black;
+    padding: 1% 1%;
+    align-content: center;
+}
+#img-av{
+    border-radius: 50px;
+}
+#text{
+    padding-left: 25px;
+    padding-right: 25px;
+    white-space:pre;
+}
+#window{
+    background-color: aliceblue;
+    padding-bottom: 5px;
+    margin: 0 0;
+    border-radius: 10px;
+}
+.visitka{
+    width: 110px;
+    
+}
+#page{
+    position: absolute;
+    bottom: 1%;
+    left: 1%
+}
+#group{
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+}
